@@ -1,0 +1,96 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>Bigdatablaze</groupId>
+  <artifactId>Bigdatablaze</artifactId>
+  <version>2.4-Snapshot</version>
+  <build>
+    <sourceDirectory>src</sourceDirectory>
+    <plugins>
+      <plugin>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>3.7.0</version>
+        <configuration>
+          <source>1.8</source>
+          <target>1.8</target>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+  
+  
+    <dependencies>
+    	<dependency>
+    <groupId>com.blazegraph.sample</groupId>
+    <artifactId>sample-blueprints-remote</artifactId>
+    <version>2.0.0</version>
+</dependency>
+<dependency>
+    <groupId>com.blazegraph.sample</groupId>
+    <artifactId>sample-blueprints-embedded</artifactId>
+    <version>2.0.0</version>
+</dependency>
+<dependency>
+    <groupId>com.blazegraph.sample</groupId>
+    <artifactId>sample-btree</artifactId>
+    <version>2.0.0</version>
+</dependency>
+<dependency>
+    <groupId>com.blazegraph.sample</groupId>
+    <artifactId>sample-customFunction-remote</artifactId>
+    <version>2.0.0</version>
+</dependency>
+<dependency>
+    <groupId>com.blazegraph.sample</groupId>
+    <artifactId>sample-rdf-rules</artifactId>
+    <version>2.0.0</version>
+</dependency>
+<dependency>
+    <groupId>com.blazegraph.sample</groupId>
+    <artifactId>sample-rdr</artifactId>
+    <version>2.0.0</version>
+</dependency>
+<dependency>
+    <groupId>com.blazegraph.sample</groupId>
+    <artifactId>sample-sesame-remote</artifactId>
+    <version>2.0.0</version>
+</dependency>
+<dependency>
+    <groupId>com.blazegraph.sample</groupId>
+    <artifactId>sample-sesame-first</artifactId>
+    <version>2.0.0</version>
+</dependency>
+<dependency>
+    <groupId>com.blazegraph.sample</groupId>
+    <artifactId>sample-sesame-embedded</artifactId>
+    <version>2.0.0</version>
+</dependency>
+<dependency>
+ 	<groupId>com.blazegraph</groupId>
+ 	<artifactId>bigdata-core</artifactId>
+ 	<version>2.1.4</version>
+ </dependency>
+ <dependency>
+ 	<groupId>com.blazegraph</groupId>
+ 	<artifactId>bigdata-client</artifactId>
+ 	<version>2.1.4</version>
+ </dependency>
+<dependency>
+        <groupId>com.blazegraph</groupId>
+        <artifactId>blazegraph-gremlin</artifactId>
+        <version>1.0.0</version>
+    </dependency>
+    <dependency>
+        <groupId>com.blazegraph</groupId>
+        <artifactId>BlazegraphBasedTPFServer</artifactId>
+        <version>0.1.0</version>
+    </dependency>
+    
+    <dependency>
+    <groupId>org.aksw.jena-sparql-api</groupId>
+    <artifactId>jena-sparql-api-core</artifactId>
+    <version>3.7.0-3</version>
+</dependency>
+  </dependencies>
+  
+  
+</project>
